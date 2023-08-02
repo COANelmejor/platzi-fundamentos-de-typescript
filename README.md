@@ -46,3 +46,13 @@ npx tsc --init
 Este archivo contiene la configuración de typescript para el proyecto. 
 
 En el se puede especificar la version de ECMAScript a usar, la carpeta donde se guardaran los archivos traspilados, si se quiere que se traspilen todos los archivos `.ts` o solo los que se especifiquen, etc.
+
+### --watch
+
+Para evitar estar compilando manualomente cada vez que se haga un cambio en un archivo `.ts` se puede usar el modificador `--watch`
+
+Esto hará que cada vez que se guarde un archivo `.ts` se compile automaticamente.
+
+```bash
+npx tsc --watch
+```
